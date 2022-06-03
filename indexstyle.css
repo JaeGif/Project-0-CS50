@@ -1,0 +1,21 @@
+body {
+  background-color: #202124;
+  display: block;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  min-width: 400px;
+}
+
+#search {
+  border-radius: 15px 15px 15px 15px;
+  color: #FFFF;
+}
+
+#button {
+  obj
+}
+.center {
+  display: flex;
+  justify-content: center;
+}
