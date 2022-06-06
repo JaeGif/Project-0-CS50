@@ -11,18 +11,30 @@ body {
   font-family: SansSerif, serif;
   min-height: 92px;
   color: white;
+  padding-bottom: 30px;
+  text-shadow: 9px 9px 5px black;
 }
 #searchbar {
   min-width: 400px;
   max-width: 600px;
   width: 100%;
   height: 40px;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 15px;
+  margin-right: 15px;
   background-color: #202124;
   border: solid #2b2f32 thin;
   border-radius: 40px 40px 40px 40px;
+  text-indent: 30px;
+  font-size: 16px;
+  font-family: Arial, Helvetica, Geneva, serif;
+  color: white;
+
 }
+#searchbar:hover {
+  background:#3c4043
+  border-box; box-shadow: 1px 1px 3px black;
+}
+
 .button-container {
   display: flex;
   justify-content: center;
@@ -33,11 +45,15 @@ body {
   height: 35px;
   width: fit-content;
   font-size: 14px;
-  padding-right:15px;
-  padding-left:15px;
+  padding-right:18px;
+  padding-left:18px;
   border: none;
   background-color: #2b2f32;
   color: #FFFF;
   font-family: arial, sans-serif;
   border-radius: 5px 5px 5px 5px;
+}
+
+.button:hover {
+  background:#3c4043
 }
