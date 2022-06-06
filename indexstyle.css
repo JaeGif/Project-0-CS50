@@ -1,45 +1,43 @@
 body {
-  font-size: 86px;
-  font-family: SansSerif, serif;
   background-color: #202124;
-  display: flex;
-  justify-content: center;
-  height: 100%;
   min-width: 400px;
 }
-#search {
-  width: 100%;
-  height: 45px;
+.container {
   display: flex;
+  justify-content: center;
+}
+#logo {
+  font-size: 92px;
+  font-family: SansSerif, serif;
+  min-height: 92px;
+  color: white;
+}
+#searchbar {
+  min-width: 400px;
+  max-width: 600px;
+  width: 100%;
+  height: 40px;
+  margin-left: 50px;
+  margin-right: 50px;
   background-color: #202124;
-  border: solid #bdc1c6 thin;
+  border: solid #2b2f32 thin;
   border-radius: 40px 40px 40px 40px;
 }
-#logodiv {
+.button-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: white;
-  font-family: sans-serif;
-  max-height: 290px;
-  height: calc(100% - 560px);
-  flex-shrink: 0;
-  box-sizing: border-box;
-  min-height: 92px;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 30px;
 }
-.underbutton {
+.button {
   height: 35px;
-  width: 130px;
+  width: fit-content;
   font-size: 14px;
+  padding-right:15px;
+  padding-left:15px;
   border: none;
   background-color: #2b2f32;
   color: #FFFF;
   font-family: arial, sans-serif;
   border-radius: 5px 5px 5px 5px;
-}
-
-#buttondiv {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
 }

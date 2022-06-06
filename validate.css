@@ -1,0 +1,38 @@
+body {
+  font-size: 86px;
+  font-family: SansSerif, serif;
+  background-color: #202124;
+  display: flex;
+  justify-items: center;
+  min-width: 400px;
+}
+#search {
+  width: 100%;
+  height: 45px;
+  display: flex;
+  background-color: #202124;
+  border: solid #bdc1c6 thin;
+  border-radius: 40px 40px 40px 40px;
+}
+#logodiv {
+  align-content: center;
+  color: white;
+  font-family: sans-serif;
+  min-height: 92px;
+
+}
+#underbutton {
+  height: 35px;
+  width: 130px;
+  font-size: 14px;
+  border: none;
+  background-color: #2b2f32;
+  color: #FFFF;
+  font-family: arial, sans-serif;
+  border-radius: 5px 5px 5px 5px;
+}
+
+#buttondiv {
+  align-items: center;
+  display: flex;
+}
